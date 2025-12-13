@@ -1,7 +1,7 @@
 package com.laundry.backend.api.controller;
 
 import com.laundry.backend.api.service.UserService;
-import com.laundry.backend.model.User;
+import com.laundry.backend.api.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

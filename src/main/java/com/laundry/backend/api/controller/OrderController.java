@@ -1,7 +1,7 @@
-package com.laundry.backend.api;
+package com.laundry.backend.api.controller;
 
-import com.laundry.backend.model.Order;
-import com.laundry.backend.service.OrderService;
+import com.laundry.backend.api.entity.Order;
+import com.laundry.backend.api.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
