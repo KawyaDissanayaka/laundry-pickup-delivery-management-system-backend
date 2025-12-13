@@ -1,4 +1,4 @@
-package com.laundry.backend.controller;
+package com.laundry.backend.api;
 
 import com.laundry.backend.model.Order;
 import com.laundry.backend.service.OrderService;
