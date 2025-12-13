@@ -1,16 +1,21 @@
 package com.laundry.backend.model;
 
 import lombok.Data;
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 @Data
-@Document(collection = "service_items")
+@Entity
+@Table(name = "service_items")
 public class ServiceItem {
     @Id
+    @GeneratedValue(strategy = GenerationType.UUID)
     private String id;
     private String name;
     private double price;
     private String description;
-    private String category; // WASH_FOLD, DRY_CLEAN, IRON_ONLY
+    private String category;
 }

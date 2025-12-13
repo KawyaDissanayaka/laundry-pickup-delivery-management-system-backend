@@ -1,7 +1,7 @@
 package com.laundry.backend.repository;
 
 import com.laundry.backend.model.ServiceItem;
-import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface ServiceItemRepository extends MongoRepository<ServiceItem, String> {
+public interface ServiceItemRepository extends JpaRepository<ServiceItem, String> {
 }

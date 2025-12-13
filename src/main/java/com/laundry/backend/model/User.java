@@ -1,17 +1,22 @@
 package com.laundry.backend.model;
 
 import lombok.Data;
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 @Data
-@Document(collection = "users")
+@Entity
+@Table(name = "users")
 public class User {
     @Id
+    @GeneratedValue(strategy = GenerationType.UUID)
     private String id;
     private String name;
     private String email;
-    private String password; // In a real app, this should be hashed
+    private String password;
     private String phone;
     private String role; // CUSTOMER, ADMIN
 }
