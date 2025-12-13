@@ -2,11 +2,10 @@ package com.laundry.backend.api.service;
 
 import com.laundry.backend.api.exception.UserNotFoundException;
 import com.laundry.backend.api.repository.UserRepository;
-import com.laundry.backend.model.User;
+import com.laundry.backend.api.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class UserService {
