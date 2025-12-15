@@ -6,6 +6,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import java.time.LocalDateTime;
 
 @Data
 @Entity
@@ -18,5 +19,7 @@ public class User {
     private String email;
     private String password;
     private String phone;
-    private String role; // CUSTOMER, ADMIN
+    private String address;
+    private String role; // CUSTOMER, ADMIN, EMPLOYEE, RIDER
+    private LocalDateTime joinDate;
 }
