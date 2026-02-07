@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Table(name = "orders")
+@Table(name = "rider_orders")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
