@@ -30,5 +30,5 @@ public class RegisterRequestDTO {
     @Size(min = 5, message = "Address must be at least 5 characters long")
     private String address;
     
-    private String role = "CUSTOMER";
+    private String role;
 }
