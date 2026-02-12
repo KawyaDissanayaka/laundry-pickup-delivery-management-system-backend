@@ -20,6 +20,13 @@ A complete Spring Boot backend for the Laundry Management System with JWT authen
 2. Create a database named `laundry_db` (optional - will be created automatically)
 3. Update database credentials in `src/main/resources/application.properties` if needed
 
+### Clone Repository
+
+```bash
+git clone https://github.com/KawyaDissanayaka/laundry-pickup-delivery-management-system-backend
+.git
+```
+
 ### Running the Application
 
 
@@ -36,6 +43,20 @@ A complete Spring Boot backend for the Laundry Management System with JWT authen
 3. **Access the API**
    - Base URL: `http://localhost:8080`
    - API endpoints: `http://localhost:8080/api/`
+  
+## 📸 Backend Screenshots
+
+### Application Running
+![Backend Running](screenshots/backend-running.png)
+
+### API Testing (Postman)
+![API Test](screenshots/api-get-orders.png)
+
+### Swagger API Documentation
+![Swagger UI](screenshots/swagger-ui.png)
+
+### Database Tables
+![Database](screenshots/database-tables.png)
 
 ## 🔐 Test Credentials
 
