@@ -17,22 +17,18 @@ A complete Spring Boot backend for the Laundry Management System with JWT authen
 
 ### Running the Application
 
-1. **Clone and Navigate**
-   ```bash
-   cd laundrymart-backend
-   ```
 
-2. **Build the Project**
+1. **Build the Project**
    ```bash
    mvn clean install
    ```
 
-3. **Run the Application**
+2. **Run the Application**
    ```bash
    mvn spring-boot:run
    ```
 
-4. **Access the API**
+3. **Access the API**
    - Base URL: `http://localhost:8080`
    - API endpoints: `http://localhost:8080/api/`
 
