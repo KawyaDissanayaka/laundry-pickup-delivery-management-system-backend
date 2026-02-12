@@ -108,6 +108,13 @@ public class OrderService {
                 .collect(Collectors.toList());
     }
     
+    public List<OrderDTO> getUnassignedPlacedOrders() {
+        List<Order> orders = orderRepository.findByStatusAndRiderIsNull(OrderStatus.PLACED);
+        return orders.stream()
+                .map(this::convertToOrderDTO)
+                .collect(Collectors.toList());
+    }
+    
     public List<OrderDTO> getAllOrders() {
         List<Order> orders = orderRepository.findAll();
         return orders.stream()
@@ -200,6 +207,28 @@ public class OrderService {
         }
         
         order.setEmployee(employee);
+        order.setStatus(OrderStatus.ASSIGNED);
+        order = orderRepository.save(order);
+        
+        return convertToOrderDTO(order);
+    }
+    
+    public OrderDTO assignOrderToRider(Long orderId) {
+        Order order = orderRepository.findById(orderId)
+                .orElseThrow(() -> new ResourceNotFoundException("Order", orderId));
+        
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        String username = authentication.getName();
+        User rider = userRepository.findByUsername(username)
+                .orElseThrow(() -> new ResourceNotFoundException("Rider not found"));
+        
+        // Only allow assignment if order is PLACED and not assigned
+        if (order.getStatus() != OrderStatus.PLACED || order.getRider() != null) {
+            throw new IllegalArgumentException("Order is not available for pickup");
+        }
+        
+        // Assign order to rider and change status
+        order.setRider(rider);
         order.setStatus(OrderStatus.ASSIGNED);
         order = orderRepository.save(order);
         

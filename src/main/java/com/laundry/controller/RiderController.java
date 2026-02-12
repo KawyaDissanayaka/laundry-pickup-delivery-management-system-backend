@@ -49,8 +49,8 @@ public class RiderController {
     
     @PostMapping("/orders/{id}/confirm-pickup")
     public ResponseEntity<OrderDTO> confirmPickup(@PathVariable Long id) {
-        // When rider confirms pickup, change status to AT_LAUNDRY
-        OrderDTO order = orderService.updateOrderStatus(id, "AT_LAUNDRY", "rider");
+        // When rider confirms pickup, assign the order to this rider and change status
+        OrderDTO order = orderService.assignOrderToRider(id);
         return ResponseEntity.ok(order);
     }
     
@@ -62,10 +62,7 @@ public class RiderController {
     
     @GetMapping("/dashboard/pending-pickup")
     public ResponseEntity<List<OrderDTO>> getPendingPickupOrders() {
-        List<OrderDTO> orders = orderService.getOrdersByRider();
-        List<OrderDTO> pendingPickupOrders = orders.stream()
-                .filter(order -> OrderStatus.PLACED.name().equals(order.getStatus()))
-                .toList();
-        return ResponseEntity.ok(pendingPickupOrders);
+        List<OrderDTO> orders = orderService.getUnassignedPlacedOrders();
+        return ResponseEntity.ok(orders);
     }
 }
