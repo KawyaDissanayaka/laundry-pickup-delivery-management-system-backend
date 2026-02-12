@@ -19,7 +19,7 @@ A complete Spring Boot backend for the Laundry Management System with JWT authen
 
 1. **Clone and Navigate**
    ```bash
-   cd laundrymart-backend
+   cd laundry-pickup-delivery-management-system-backend
    ```
 
 2. **Build the Project**
