@@ -1,5 +1,10 @@
 # Laundry Management System Backend
 
+![GitHub last commit](https://img.shields.io/github/last-commit/KawyaDissanayaka/laundry-pickup-delivery-management-system-backend)
+![GitHub repo size](https://img.shields.io/github/repo-size/KawyaDissanayaka/laundry-pickup-delivery-management-system-backend)
+![GitHub issues](https://img.shields.io/github/issues/KawyaDissanayaka/laundry-pickup-delivery-management-system-backend)
+
+
 A complete Spring Boot backend for the Laundry Management System with JWT authentication, role-based access control, and comprehensive order management.
 
 ## 🚀 Quick Start
@@ -15,26 +20,44 @@ A complete Spring Boot backend for the Laundry Management System with JWT authen
 2. Create a database named `laundry_db` (optional - will be created automatically)
 3. Update database credentials in `src/main/resources/application.properties` if needed
 
+### Clone Repository
+
+```bash
+git clone https://github.com/KawyaDissanayaka/laundry-pickup-delivery-management-system-backend
+.git
+```
+
 ### Running the Application
 
-1. **Clone and Navigate**
-   ```bash
-   cd laundry-pickup-delivery-management-system-backend
-   ```
 
-2. **Build the Project**
+
+1. **Build the Project**
    ```bash
    mvn clean install
    ```
 
-3. **Run the Application**
+2. **Run the Application**
    ```bash
    mvn spring-boot:run
    ```
 
-4. **Access the API**
+3. **Access the API**
    - Base URL: `http://localhost:8080`
    - API endpoints: `http://localhost:8080/api/`
+  
+## 📸 Backend Screenshots
+
+### Application Running
+![Backend Running](screenshots/backend-running.png)
+
+### API Testing (Postman)
+![API Test](screenshots/api-get-orders.png)
+
+### Swagger API Documentation
+![Swagger UI](screenshots/swagger-ui.png)
+
+### Database Tables
+![Database](screenshots/database-tables.png)
 
 ## 🔐 Test Credentials
 
