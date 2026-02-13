@@ -53,8 +53,6 @@ git clone https://github.com/KawyaDissanayaka/laundry-pickup-delivery-management
 ### API Testing (Postman)
 ![API Test](screenshots/api-get-orders.png)
 
-### Swagger API Documentation
-![Swagger UI](screenshots/swagger-ui.png)
 
 ### Database Tables
 ![Database](screenshots/database-tables.png)
