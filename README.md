@@ -1,5 +1,13 @@
 # Laundry Management System Backend
 
+![GitHub last commit](https://img.shields.io/github/last-commit/KawyaDissanayaka/laundry-pickup-delivery-management-system-backend
+)
+![GitHub repo size](https://img.shields.io/github/repo-size/KawyaDissanayaka/laundry-pickup-delivery-management-system-backend
+)
+![GitHub issues](https://img.shields.io/github/issues/KawyaDissanayaka/laundry-pickup-delivery-management-system-backend
+)
+
+
 A complete Spring Boot backend for the Laundry Management System with JWT authentication, role-based access control, and comprehensive order management.
 
 ## 🚀 Quick Start
