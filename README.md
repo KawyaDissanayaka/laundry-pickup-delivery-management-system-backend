@@ -700,3 +700,17 @@ The API returns consistent error responses:
 ## 📄 License
 
 This project is licensed under the MIT License.
+
+## 📞 Contact
+
+**Kawya Dissanayaka**
+- GitHub: [@KawyaDissanayaka](https://github.com/KawyaDissanayaka)
+- Repository: [Backend](https://github.com/KawyaDissanayaka/laundry-pickup-delivery-management-system-backend) | [Frontend](https://github.com/KawyaDissanayaka/laundry-pickup-delivery-management-system-frontend)
+
+---
+
+## 🔗 Related Repositories
+
+- **Frontend Application**: [laundry-pickup-delivery-management-system-frontend](https://github.com/KawyaDissanayaka/laundry-pickup-delivery-management-system-frontend)
+
+---
