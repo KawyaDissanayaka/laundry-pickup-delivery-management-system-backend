@@ -198,7 +198,7 @@ A complete Spring Boot backend for the Laundry Management System with JWT authen
 
 ---
 
-### 🥉 Bronze Medal - Design Excellence
+### 🥉 Bronze Medal - API Excellent
 <a href="https://github.com/minidu1">
     <img src="https://github.com/minidu1.png" width="100" style="border-radius: 50%; border: 5px solid #CD7F32;"/>
 </a>
