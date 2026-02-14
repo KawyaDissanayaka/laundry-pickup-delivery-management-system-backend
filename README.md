@@ -374,9 +374,33 @@ The API returns consistent error responses:
 
 3. Use the test credentials provided above
 
- Ensure token hasn't expired (24 hours)
 
- ## 📊 Project Insights & Contributors
+## 📊 Project Insights & Contributors
+
+### 📈 Repository Statistics
+
+<div align="center">
+
+![Repository Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
+![Language](https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=openjdk)
+![Framework](https://img.shields.io/badge/Framework-Spring%20Boot-6DB33F?style=for-the-badge&logo=spring)
+![Database](https://img.shields.io/badge/Database-MySQL-4479A1?style=for-the-badge&logo=mysql)
+
+| 📦 Metric | 📊 Value |
+|-----------|----------|
+| **Total Commits** | 35+ |
+| **Active Contributors** | 3 (Core Team) |
+| **Primary Language** | Java (100%) |
+| **Framework** | Spring Boot 3.2.0 |
+| **Last Updated** | Feb 14, 2026 - 5:45 PM |
+| **Project Duration** | 2 Months |
+| **Open Issues** | 5 |
+| **Repository Size** | 51.1 MB |
+| **Latest Features** | Employee Management System |
+
+</div>
+
+---
 
 ### 👥 Contributors Overview
 
@@ -387,10 +411,8 @@ The API returns consistent error responses:
     <th></th>
     <th>Contributor</th>
     <th>Role</th>
-    <th>Frontend Commits</th>
     <th>Backend Commits</th>
-    <th>UI Design</th>
-    <th>Postman Testing</th>
+    <th>Frontend Commits</th>
     <th>Total Contributions</th>
   </tr>
   <tr>
@@ -407,10 +429,25 @@ The API returns consistent error responses:
     </td>
     <td>🎯 Lead Developer<br/>📦 Project Owner</td>
     <td align="center"><b>24+</b></td>
-    <td align="center"><b>20+</b></td>
-    <td align="center">✅</td>
-    <td align="center">✅</td>
-    <td align="center"><b>🏆 44+</b></td>
+    <td align="center"><b>24+</b></td>
+    <td align="center"><b>🏆 48+</b></td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/minidu1">
+        <img src="https://avatars.githubusercontent.com/u/204583431?v=4" width="80" height="80" style="border-radius: 50%; border: 3px solid #FF9800;" alt="minidu1"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/minidu1">
+        <b>Minidu Silva</b><br/>
+        <sub>@minidu1</sub>
+      </a>
+    </td>
+    <td>⚙️ Core Developer<br/>📊 Feature Specialist</td>
+    <td align="center"><b>6+</b></td>
+    <td align="center">-</td>
+    <td align="center"><b>🥈 6+</b></td>
   </tr>
   <tr>
     <td align="center">
@@ -424,17 +461,15 @@ The API returns consistent error responses:
         <sub>@DarshanaChinthaka</sub>
       </a>
     </td>
-    <td>⚙️ Backend Developer<br/>🗄️ Database Specialist</td>
-    <td align="center">-</td>
+    <td>🗄️ Database Architect<br/>🧪 Testing Lead</td>
     <td align="center"><b>6+</b></td>
-    <td align="center">✅</td>
     <td align="center">-</td>
-    <td align="center"><b>🥈 6+</b></td>
+    <td align="center"><b>🥉 6+</b></td>
   </tr>
   <tr>
     <td align="center">
       <a href="https://github.com/shanilka1">
-        <img src="https://avatars.githubusercontent.com/u/214608833?v=4" width="80" height="80" style="border-radius: 50%; border: 3px solid #FF9800;" alt="shanilka1"/>
+        <img src="https://avatars.githubusercontent.com/u/214608833?v=4" width="80" height="80" style="border-radius: 50%; border: 3px solid #9C27B0;" alt="shanilka1"/>
       </a>
     </td>
     <td>
@@ -444,16 +479,14 @@ The API returns consistent error responses:
       </a>
     </td>
     <td>🎨 Frontend Developer<br/>💻 UI Implementation</td>
+    <td align="center">-</td>
     <td align="center"><b>4+</b></td>
-    <td align="center">-</td>
-    <td align="center">✅</td>
-    <td align="center">-</td>
-    <td align="center"><b>🥉 4+</b></td>
+    <td align="center"><b>4+</b></td>
   </tr>
   <tr>
     <td align="center">
       <a href="https://github.com/nimashagayathri">
-        <img src="https://github.com/nimashagayathri.png" width="80" height="80" style="border-radius: 50%; border: 3px solid #9C27B0;" alt="nimashagayathri"/>
+        <img src="https://github.com/nimashagayathri.png" width="80" height="80" style="border-radius: 50%; border: 3px solid #E91E63;" alt="nimashagayathri"/>
       </a>
     </td>
     <td>
@@ -465,69 +498,74 @@ The API returns consistent error responses:
     <td>🎨 UI/UX Designer<br/>🖌️ Design Contributor</td>
     <td align="center">-</td>
     <td align="center">-</td>
-    <td align="center">✅</td>
-    <td align="center">-</td>
     <td align="center">🎨 Design</td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/minidu1">
-        <img src="https://github.com/minidu1.png" width="80" height="80" style="border-radius: 50%; border: 3px solid #E91E63;" alt="minidu1"/>
-      </a>
-    </td>
-    <td>
-      <a href="https://github.com/minidu1">
-        <b>Minidu</b><br/>
-        <sub>@minidu1</sub>
-      </a>
-    </td>
-    <td>👥 Team Member<br/>🤝 Contributor</td>
-    <td align="center">-</td>
-    <td align="center">-</td>
-    <td align="center">-</td>
-    <td align="center">-</td>
-    <td align="center">🤝 Support</td>
   </tr>
 </table>
 
 </div>
 
 ---
-## 🏆 Top Contributors Hall of Fame
+
+### 🏆 Top Contributors Hall of Fame
 
 <div align="center">
 
-### 🥇 Gold Medal - Lead Developer & Project Architect
+#### 🥇 Gold Medal - Lead Developer & Project Architect
 
 <a href="https://github.com/KawyaDissanayaka">
-  <img src="https://avatars.githubusercontent.com/u/223992388?v=4" width="150" height="150" style="border-radius: 50%; border: 6px solid gold; box-shadow: 0 4px 8px rgba(255, 215, 0, 0.5);"/>
+  <img src="https://avatars.githubusercontent.com/u/223992388?v=4" width="150" height="150" style="border-radius: 50%; border: 6px solid gold;"/>
 </a>
 
-<h3>Kawya Dissanayaka</h3>
+### Kawya Dissanayaka
 
-![Total Contributions](https://img.shields.io/badge/Total%20Contributions-20+-gold?style=for-the-badge&logo=github)
-![Backend Commits](https://img.shields.io/badge/Backend%20Commits-8+-blue?style=for-the-badge&logo=java)
-![Frontend Commits](https://img.shields.io/badge/Frontend%20Commits-5+-green?style=for-the-badge&logo=react)
-![Documentation](https://img.shields.io/badge/Documentation-10+-orange?style=for-the-badge&logo=markdown)
+![Total Contributions](https://img.shields.io/badge/Total%20Contributions-48+-gold?style=for-the-badge&logo=github)
+![Backend Commits](https://img.shields.io/badge/Backend%20Commits-24+-blue?style=for-the-badge&logo=java)
+![Frontend Commits](https://img.shields.io/badge/Frontend%20Commits-24+-green?style=for-the-badge&logo=react)
+![Documentation](https://img.shields.io/badge/Documentation-Complete-orange?style=for-the-badge&logo=markdown)
 
 **Key Contributions:**
 - 🔐 Complete Authentication & Authorization System
 - 📦 Order Management Architecture
-- 📚 Comprehensive Documentation
+- 📚 Comprehensive API Documentation
 - 🎨 System Design & Architecture
 - ⚡ Performance Optimization
+- 🛡️ Security Implementation
+- ⭐ Employee Controller Development
 
 **Impact Score:** ⭐⭐⭐⭐⭐ (5.0/5.0)
 
 ---
 
-### 🥈 Silver Medal - Backend Specialist & Database Architect
+#### 🥈 Silver Medal - Core Developer & Feature Specialist
 
-<a href="https://github.com/DarshanaChinthaka">
-  <img src="https://avatars.githubusercontent.com/u/214707803?v=4" width="140" height="140" style="border-radius: 50%; border: 5px solid silver; box-shadow: 0 4px 8px rgba(192, 192, 192, 0.5);"/>
+<a href="https://github.com/minidu1">
+  <img src="https://avatars.githubusercontent.com/u/204583431?v=4" width="140" height="140" style="border-radius: 50%; border: 5px solid silver;"/>
 </a>
 
-<h3>Darshana Chinthaka</h3>
+### Minidu Silva
+
+![Backend Commits](https://img.shields.io/badge/Backend%20Commits-6+-blue?style=for-the-badge&logo=spring)
+![Features](https://img.shields.io/badge/New%20Features-3+-green?style=for-the-badge&logo=github)
+![Latest Work](https://img.shields.io/badge/Latest-Today-orange?style=for-the-badge&logo=calendar)
+
+**Key Contributions:**
+- ⭐ Employee Order Status API (NEW)
+- ⭐ Employee Assignment System (NEW)
+- ⭐ Employee Management Endpoints (NEW)
+- 👥 Employee Directory Implementation
+- 📊 Admin Employee Dashboard
+
+**Impact Score:** ⭐⭐⭐⭐⭐ (5.0/5.0)
+
+---
+
+#### 🥉 Bronze Medal - Database Architect & Testing Lead
+
+<a href="https://github.com/DarshanaChinthaka">
+  <img src="https://avatars.githubusercontent.com/u/214707803?v=4" width="130" height="130" style="border-radius: 50%; border: 4px solid #CD7F32;"/>
+</a>
+
+### Darshana Chinthaka
 
 ![Backend Commits](https://img.shields.io/badge/Backend%20Commits-6+-blue?style=for-the-badge&logo=spring)
 ![Database](https://img.shields.io/badge/Database-Specialist-green?style=for-the-badge&logo=mysql)
@@ -544,34 +582,13 @@ The API returns consistent error responses:
 
 ---
 
-### 🥉 Bronze Medal - Frontend Developer
-
-<a href="https://github.com/shanilka1">
-  <img src="https://avatars.githubusercontent.com/u/214608833?v=4" width="130" height="130" style="border-radius: 50%; border: 4px solid #CD7F32; box-shadow: 0 4px 8px rgba(205, 127, 50, 0.5);"/>
-</a>
-
-<h3>Shanilka Lakshan</h3>
-
-![Frontend Commits](https://img.shields.io/badge/Frontend%20Commits-4+-green?style=for-the-badge&logo=react)
-![UI Implementation](https://img.shields.io/badge/UI-Implementation-blue?style=for-the-badge&logo=css3)
-
-**Key Contributions:**
-- 💻 Frontend Development
-- 🎨 UI Component Implementation
-- 📱 Responsive Design
-- ⚡ User Experience Enhancement
-
-**Impact Score:** ⭐⭐⭐⭐ (4.0/5.0)
-
----
-
-### 🎨 Special Recognition - UI/UX Design Excellence
+### 🎨 Special Recognition - UI/UX Excellence
 
 <a href="https://github.com/nimashagayathri">
-  <img src="https://github.com/nimashagayathri.png" width="120" height="120" style="border-radius: 50%; border: 4px solid #9C27B0; box-shadow: 0 4px 8px rgba(156, 39, 176, 0.5);"/>
+  <img src="https://github.com/nimashagayathri.png" width="120" height="120" style="border-radius: 50%; border: 4px solid #9C27B0;"/>
 </a>
 
-<h3>Nimasha Gayathri</h3>
+### Nimasha Gayathri
 
 ![UI Design](https://img.shields.io/badge/UI%20Design-Complete-purple?style=for-the-badge&logo=figma)
 ![UX](https://img.shields.io/badge/UX-Optimization-pink?style=for-the-badge&logo=adobe)
@@ -584,30 +601,9 @@ The API returns consistent error responses:
 
 **Impact Score:** ⭐⭐⭐⭐ (4.0/5.0)
 
----
-
-### 🤝 Special Thanks - Team Support
-
-<a href="https://github.com/minidu1">
-  <img src="https://github.com/minidu1.png" width="110" height="110" style="border-radius: 50%; border: 3px solid #E91E63; box-shadow: 0 4px 8px rgba(233, 30, 99, 0.5);"/>
-</a>
-
-<h3>Minidu</h3>
-
-![Support](https://img.shields.io/badge/Team-Support-red?style=for-the-badge&logo=github)
-![Collaboration](https://img.shields.io/badge/Collaboration-Active-brightgreen?style=for-the-badge)
-
-**Key Contributions:**
-- 🤝 Team Collaboration
-- 💬 Code Reviews
-- 🔍 Quality Assurance Support
-- 📝 Documentation Assistance
-
-**Impact Score:** ⭐⭐⭐ (3.5/5.0)
-
----
-
 </div>
+
+---
 
 ### 📊 Contribution Statistics
 
@@ -616,14 +612,13 @@ The API returns consistent error responses:
 | Metric | Value | Status |
 |--------|-------|--------|
 | **Total Contributors** | 5 | ✅ Active |
-| **Total Commits** | 30+ | 🚀 Growing |
+| **Total Commits** | 35+ | 🚀 Growing |
 | **Code Reviews** | 15+ | 💬 Collaborative |
 | **Issues Resolved** | 10+ | ✔️ Productive |
 | **Documentation Pages** | 20+ | 📚 Comprehensive |
 | **Test Coverage** | 85%+ | ✅ Excellent |
 
 </div>
-
 
 ### 🎯 Achievement Badges
 
@@ -634,63 +629,13 @@ The API returns consistent error responses:
 | 🏅 **Master Architect** | 10+ backend commits + system design | @KawyaDissanayaka |
 | 🗄️ **Database Guru** | Complete database schema design | @DarshanaChinthaka |
 | 🎨 **UI Wizard** | Complete frontend implementation | @shanilka1 |
-| 📝 **Documentation Hero** | 10+ documentation commits | @KawyaDissanayaka |
+| 📝 **Documentation Hero** | Comprehensive documentation | @KawyaDissanayaka |
 | 🧪 **Testing Champion** | Complete API testing suite | @DarshanaChinthaka |
+| ⭐ **Feature Innovator** | 3+ new features in one day | @minidu1 |
 
 </div>
 
 ---
-
-<div align="center">
-
-
-
-</div>
-
-### 📈 Repository Statistics
-
-<div align="center">
-
-| 📦 Metric | 📊 Value |
-|-----------|----------|
-| **Total Commits** | 30+ |
-| **Active Contributors** | 5 |
-| **Primary Language** | Java (100%) |
-| **Framework** | Spring Boot |
-| **Last Updated** | Feb 14, 2026 |
-| **Project Duration** | 2 Months |
-
-</div>
-
----
-
-### 🔥 Development Activity Timeline
-
-
-
-A complete Spring Boot backend for the Laundry Management System with JWT authentication, role-based access control, and comprehensive order management.
-
-
----
-
-### 🎯 Contribution Breakdown
-
-<div align="center">
-
-| Contribution Type | Lead Contributor | Count | Status |
-|-------------------|------------------|-------|--------|
-| 🔐 **Authentication API** | KawyaDissanayaka | 8+ | ✅ Complete |
-| 📦 **Order Management** | KawyaDissanayaka, DarshanaChinthaka | 10+ | ✅ Complete |
-| 👥 **User Management** | Minidu1, DarshanaChinthaka | 6+ | ✅ Complete |
-| 🗄️ **Database Configuration** | DarshanaChinthaka | 3+ | ✅ Complete |
-| 🔄 **Role Management** | DarshanaChinthaka | 2+ | ✅ Complete |
-| 📚 **Documentation** | KawyaDissanayaka | 10+ | ✅ Complete |
-
-</div>
-
----
-
-
 
 ### 📦 Project Milestones
 
@@ -706,6 +651,7 @@ A complete Spring Boot backend for the Laundry Management System with JWT authen
 | Database Configuration | Feb 06, 2026 | ✅ Complete |
 | Role Management System | Feb 12, 2026 | ✅ Complete |
 | API Documentation & Testing | Feb 14, 2026 | ✅ Complete |
+| **Employee Management System** | **Feb 14, 2026** | **✅ Complete** ⭐ NEW |
 
 </div>
 
@@ -730,7 +676,7 @@ A complete Spring Boot backend for the Laundry Management System with JWT authen
 <tr>
 <td align="center" width="25%">
   <img src="https://img.icons8.com/color/96/000000/code.png" width="60"/>
-  <h3>30+</h3>
+  <h3>35+</h3>
   <p>Total Commits</p>
 </td>
 <td align="center" width="25%">
@@ -766,27 +712,11 @@ A complete Spring Boot backend for the Laundry Management System with JWT authen
 
 ---
 
-<div align="center">
-
-### 🙏 Thank You to All Contributors!
-
-![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge)
-![Team Work](https://img.shields.io/badge/Team-Work-blue?style=for-the-badge)
-
-**Last Updated:** February 14, 2026
-
-</div>
-
----
-
-## 📝 Note
-
-> **Commit counts are based on the most recent 30 commits.** For complete contribution history, please visit the [Insights page](https://github.com/KawyaDissanayaka/laundry-pickup-delivery-management-system-backend/graphs/contributors)
-
-
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
 
 ## 📞 Contact
 
@@ -801,4 +731,48 @@ This project is licensed under the MIT License.
 - **Frontend Application**: [laundry-pickup-delivery-management-system-frontend](https://github.com/KawyaDissanayaka/laundry-pickup-delivery-management-system-frontend)
 
 ---
+
+<div align="center">
+
+### 🙏 Thank You to All Contributors!
+
+![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge)
+![Team Work](https://img.shields.io/badge/Team-Work-blue?style=for-the-badge)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+
+**Last Updated:** February 14, 2026 - 5:45 PM IST
+
+**Latest Release:** Employee Management System v1.0 🎉
+
+</div>
+
+---
+
+## 📝 Notes
+
+> **Commit counts are based on the most recent 30 commits.** For complete contribution history, please visit the [Insights page](https://github.com/KawyaDissanayaka/laundry-pickup-delivery-management-system-backend/graphs/contributors).
+
+> **Latest Updates:** The repository is actively being developed with new features added today including complete Employee Management System by @minidu1.
+
+> **Environment Variables:** Remember to update sensitive data (database credentials, JWT secret) in production environments.
+
+> **API Testing:** All screenshots and Postman collections are available in the `/Laundrymart Postman screenshot/` directory.
+
+> **View More Commits:** [See all commits →](https://github.com/KawyaDissanayaka/laundry-pickup-delivery-management-system-backend/commits)
+
+---
+
+<div align="center">
+
+**⭐ Star this repository if you find it helpful!**
+
+[![GitHub stars](https://img.shields.io/github/stars/KawyaDissanayaka/laundry-pickup-delivery-management-system-backend?style=social)](https://github.com/KawyaDissanayaka/laundry-pickup-delivery-management-system-backend/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/KawyaDissanayaka/laundry-pickup-delivery-management-system-backend?style=social)](https://github.com/KawyaDissanayaka/laundry-pickup-delivery-management-system-backend/network/members)
+[![GitHub watchers](https://img.shields.io/github/watchers/KawyaDissanayaka/laundry-pickup-delivery-management-system-backend?style=social)](https://github.com/KawyaDissanayaka/laundry-pickup-delivery-management-system-backend/watchers)
+
+</div>
+
+ Ensure token hasn't expired (24 hours)
 
