@@ -359,7 +359,7 @@ Content-Type: application/json
   "password": "password123"
 }
 ```
-![login Page](Laundrymart_Postman_screeshot/Auth_Controller/login.jpeg)
+![login Page]([Laundrymart_Postman_screeshot/Auth_Controller/login.jpeg](https://github.com/KawyaDissanayaka/laundry-pickup-delivery-management-system-backend/blob/Darshana/Laundrymart%20Postman%20screeshot/Auth%20Controller/login.jpeg))
 
 
 #### Register
