@@ -195,9 +195,23 @@ A complete Spring Boot backend for the Laundry Management System with JWT authen
 ![Commits](https://img.shields.io/badge/Backend%20Commits-6+-blue?style=for-the-badge&logo=git)
 ![Database](https://img.shields.io/badge/Database-Specialist-green?style=for-the-badge&logo=mysql)
 
+
+---
+
+### 🥉 Bronze Medal - API Excellent
+<a href="https://github.com/minidu1">
+    <img src="https://github.com/minidu1.png" width="100" style="border-radius: 50%; border: 5px solid #CD7F32;"/>
+</a>
+
+**minidu1**
+
+![Postman](https://img.shields.io/badge/API%20Testing-Postman-orange?style=for-the-badge&logo=postman)
+![Commits](https://img.shields.io/badge/Backend%20Commits-3+-blue?style=for-the-badge&logo=git)
+
 </div>
 
 ---
+
 
 ### 📦 Project Milestones
 
@@ -359,8 +373,7 @@ Content-Type: application/json
   "password": "password123"
 }
 ```
-![login Page](LaundrymartPostmanscreeshot/AuthController/login.jpeg)
-
+![login Page](https://github.com/KawyaDissanayaka/laundry-pickup-delivery-management-system-backend/blob/Darshana/Laundrymart%20Postman%20screeshot/Auth%20Controller/login.jpeg)
 
 #### Register
 ```http
@@ -376,7 +389,7 @@ Content-Type: application/json
   "address": "123 Customer Street"
 }
 ```
-![register Page](LaundrymartPostmanscreeshot/AuthController/register.jpeg)
+![register Page](https://github.com/KawyaDissanayaka/laundry-pickup-delivery-management-system-backend/blob/Darshana/Laundrymart%20Postman%20screeshot/Auth%20Controller/register.jpeg)
 
 
 ### Customer Endpoints (Requires CUSTOMER role)
@@ -714,3 +727,4 @@ This project is licensed under the MIT License.
 - **Frontend Application**: [laundry-pickup-delivery-management-system-frontend](https://github.com/KawyaDissanayaka/laundry-pickup-delivery-management-system-frontend)
 
 ---
+
