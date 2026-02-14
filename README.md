@@ -25,22 +25,18 @@ A complete Spring Boot backend for the Laundry Management System with JWT authen
 
 ### Running the Application
 
-1. **Clone and Navigate**
-   ```bash
-   cd laundrymart-backend
-   ```
 
-2. **Build the Project**
+1. **Build the Project**
    ```bash
    mvn clean install
    ```
 
-3. **Run the Application**
+2. **Run the Application**
    ```bash
    mvn spring-boot:run
    ```
 
-4. **Access the API**
+3. **Access the API**
    - Base URL: `http://localhost:8080`
    - API endpoints: `http://localhost:8080/api/`
 
@@ -49,22 +45,22 @@ A complete Spring Boot backend for the Laundry Management System with JWT authen
 The application automatically seeds default users on first startup:
 
 ### Admin User
-- **Username**: `admin`
+- **email**: `@admin.com`
 - **Password**: `password123`
 - **Role**: Admin
 
 ### Customer User
-- **Username**: `customer1`
+- **email**: `@gmail.com`
 - **Password**: `password123`
 - **Role**: Customer
 
 ### Employee User
-- **Username**: `employee1`
+- **email**: `@staff.com`
 - **Password**: `password123`
 - **Role**: Employee
 
 ### Rider User
-- **Username**: `rider1`
+- **email**: `@rider.com`
 - **Password**: `password123`
 - **Role**: Rider
 
@@ -78,7 +74,7 @@ POST /api/login
 Content-Type: application/json
 
 {
-  "username": "admin",
+  "email": "@admin.com",
   "password": "password123"
 }
 ```
@@ -91,7 +87,7 @@ Content-Type: application/json
 {
   "username": "newcustomer",
   "password": "password123",
-  "email": "customer@example.com",
+  "email": "customer@gmail.com",
   "fullName": "New Customer",
   "phone": "0771234567",
   "address": "123 Customer Street"
