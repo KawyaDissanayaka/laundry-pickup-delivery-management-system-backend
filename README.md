@@ -195,9 +195,23 @@ A complete Spring Boot backend for the Laundry Management System with JWT authen
 ![Commits](https://img.shields.io/badge/Backend%20Commits-6+-blue?style=for-the-badge&logo=git)
 ![Database](https://img.shields.io/badge/Database-Specialist-green?style=for-the-badge&logo=mysql)
 
+
+---
+
+### 🥉 Bronze Medal - Design Excellence
+<a href="https://github.com/minidu1">
+    <img src="https://github.com/minidu1.png" width="100" style="border-radius: 50%; border: 5px solid #CD7F32;"/>
+</a>
+
+**minidu1**
+
+![Postman](https://img.shields.io/badge/API%20Testing-Postman-orange?style=for-the-badge&logo=postman)
+![Commits](https://img.shields.io/badge/Backend%20Commits-3+-blue?style=for-the-badge&logo=git)
+
 </div>
 
 ---
+
 
 ### 📦 Project Milestones
 
