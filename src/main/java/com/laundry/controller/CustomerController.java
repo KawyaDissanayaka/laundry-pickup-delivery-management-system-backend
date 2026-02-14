@@ -13,7 +13,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/customer")
-@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:3000", "http://localhost:5174"})
 @PreAuthorize("hasRole('CUSTOMER')")
 public class CustomerController {
 
