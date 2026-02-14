@@ -100,4 +100,10 @@ public class EmployeeController {
         return ResponseEntity.ok(employees);
     }
 
+    @GetMapping("/orders/{id}/status")
+    public ResponseEntity<String> getOrderStatus(@PathVariable Long id) {
+        OrderDTO order = orderService.getOrderById(id);
+        return ResponseEntity.ok(order.getStatus()); // returns the enum as string
+    }
+
 }
