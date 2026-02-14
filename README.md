@@ -124,6 +124,159 @@
 </div>
 
 ---
+## 🏆 Top Contributors Hall of Fame
+
+<div align="center">
+
+### 🥇 Gold Medal - Lead Developer & Project Architect
+
+<a href="https://github.com/KawyaDissanayaka">
+  <img src="https://avatars.githubusercontent.com/u/223992388?v=4" width="150" height="150" style="border-radius: 50%; border: 6px solid gold; box-shadow: 0 4px 8px rgba(255, 215, 0, 0.5);"/>
+</a>
+
+<h3>Kawya Dissanayaka</h3>
+
+![Total Contributions](https://img.shields.io/badge/Total%20Contributions-20+-gold?style=for-the-badge&logo=github)
+![Backend Commits](https://img.shields.io/badge/Backend%20Commits-8+-blue?style=for-the-badge&logo=java)
+![Frontend Commits](https://img.shields.io/badge/Frontend%20Commits-5+-green?style=for-the-badge&logo=react)
+![Documentation](https://img.shields.io/badge/Documentation-10+-orange?style=for-the-badge&logo=markdown)
+
+**Key Contributions:**
+- 🔐 Complete Authentication & Authorization System
+- 📦 Order Management Architecture
+- 📚 Comprehensive Documentation
+- 🎨 System Design & Architecture
+- ⚡ Performance Optimization
+
+**Impact Score:** ⭐⭐⭐⭐⭐ (5.0/5.0)
+
+---
+
+### 🥈 Silver Medal - Backend Specialist & Database Architect
+
+<a href="https://github.com/DarshanaChinthaka">
+  <img src="https://avatars.githubusercontent.com/u/214707803?v=4" width="140" height="140" style="border-radius: 50%; border: 5px solid silver; box-shadow: 0 4px 8px rgba(192, 192, 192, 0.5);"/>
+</a>
+
+<h3>Darshana Chinthaka</h3>
+
+![Backend Commits](https://img.shields.io/badge/Backend%20Commits-6+-blue?style=for-the-badge&logo=spring)
+![Database](https://img.shields.io/badge/Database-Specialist-green?style=for-the-badge&logo=mysql)
+![Testing](https://img.shields.io/badge/Postman%20Testing-Expert-orange?style=for-the-badge&logo=postman)
+
+**Key Contributions:**
+- 🗄️ Database Schema Design & Optimization
+- 👥 User Management System
+- 🔄 Role Management Implementation
+- 🧪 API Testing & Validation
+- 📊 Order Management Features
+
+**Impact Score:** ⭐⭐⭐⭐ (4.5/5.0)
+
+---
+
+### 🥉 Bronze Medal - Frontend Developer
+
+<a href="https://github.com/shanilka1">
+  <img src="https://avatars.githubusercontent.com/u/214608833?v=4" width="130" height="130" style="border-radius: 50%; border: 4px solid #CD7F32; box-shadow: 0 4px 8px rgba(205, 127, 50, 0.5);"/>
+</a>
+
+<h3>Shanilka Lakshan</h3>
+
+![Frontend Commits](https://img.shields.io/badge/Frontend%20Commits-4+-green?style=for-the-badge&logo=react)
+![UI Implementation](https://img.shields.io/badge/UI-Implementation-blue?style=for-the-badge&logo=css3)
+
+**Key Contributions:**
+- 💻 Frontend Development
+- 🎨 UI Component Implementation
+- 📱 Responsive Design
+- ⚡ User Experience Enhancement
+
+**Impact Score:** ⭐⭐⭐⭐ (4.0/5.0)
+
+---
+
+### 🎨 Special Recognition - UI/UX Design Excellence
+
+<a href="https://github.com/nimashagayathri">
+  <img src="https://github.com/nimashagayathri.png" width="120" height="120" style="border-radius: 50%; border: 4px solid #9C27B0; box-shadow: 0 4px 8px rgba(156, 39, 176, 0.5);"/>
+</a>
+
+<h3>Nimasha Gayathri</h3>
+
+![UI Design](https://img.shields.io/badge/UI%20Design-Complete-purple?style=for-the-badge&logo=figma)
+![UX](https://img.shields.io/badge/UX-Optimization-pink?style=for-the-badge&logo=adobe)
+
+**Key Contributions:**
+- 🖌️ Complete UI/UX Design
+- 🎨 Design System Creation
+- 📐 Wireframing & Prototyping
+- 💡 User-Centered Design Approach
+
+**Impact Score:** ⭐⭐⭐⭐ (4.0/5.0)
+
+---
+
+### 🤝 Special Thanks - Team Support
+
+<a href="https://github.com/minidu1">
+  <img src="https://github.com/minidu1.png" width="110" height="110" style="border-radius: 50%; border: 3px solid #E91E63; box-shadow: 0 4px 8px rgba(233, 30, 99, 0.5);"/>
+</a>
+
+<h3>Minidu</h3>
+
+![Support](https://img.shields.io/badge/Team-Support-red?style=for-the-badge&logo=github)
+![Collaboration](https://img.shields.io/badge/Collaboration-Active-brightgreen?style=for-the-badge)
+
+**Key Contributions:**
+- 🤝 Team Collaboration
+- 💬 Code Reviews
+- 🔍 Quality Assurance Support
+- 📝 Documentation Assistance
+
+**Impact Score:** ⭐⭐⭐ (3.5/5.0)
+
+---
+
+</div>
+
+### 📊 Contribution Statistics
+
+<div align="center">
+
+| Metric | Value | Status |
+|--------|-------|--------|
+| **Total Contributors** | 5 | ✅ Active |
+| **Total Commits** | 30+ | 🚀 Growing |
+| **Code Reviews** | 15+ | 💬 Collaborative |
+| **Issues Resolved** | 10+ | ✔️ Productive |
+| **Documentation Pages** | 20+ | 📚 Comprehensive |
+| **Test Coverage** | 85%+ | ✅ Excellent |
+
+</div>
+
+
+### 🎯 Achievement Badges
+
+<div align="center">
+
+| Achievement | Criteria | Holders |
+|------------|----------|---------|
+| 🏅 **Master Architect** | 10+ backend commits + system design | @KawyaDissanayaka |
+| 🗄️ **Database Guru** | Complete database schema design | @DarshanaChinthaka |
+| 🎨 **UI Wizard** | Complete frontend implementation | @shanilka1 |
+| 📝 **Documentation Hero** | 10+ documentation commits | @KawyaDissanayaka |
+| 🧪 **Testing Champion** | Complete API testing suite | @DarshanaChinthaka |
+
+</div>
+
+---
+
+<div align="center">
+
+
+
+</div>
 
 ### 📈 Repository Statistics
 
@@ -168,49 +321,6 @@ A complete Spring Boot backend for the Laundry Management System with JWT authen
 
 ---
 
-### 🏆 Top Contributors Hall of Fame
-
-<div align="center">
-
-#### 🥇 Gold Medal - Lead Developer
-<a href="https://github.com/KawyaDissanayaka">
-  <img src="https://avatars.githubusercontent.com/u/223992388?v=4" width="150" style="border-radius: 50%; border: 5px solid gold;"/>
-</a>
-
-**Kawya Dissanayaka**
-
-![Commits](https://img.shields.io/badge/Backend%20Commits-20+-success?style=for-the-badge&logo=git)
-![Lines](https://img.shields.io/badge/Role-Full%20Stack-blue?style=for-the-badge)
-![Postman](https://img.shields.io/badge/API%20Testing-Postman-orange?style=for-the-badge&logo=postman)
-
----
-
-#### 🥈 Silver Medal - Backend Specialist
-<a href="https://github.com/DarshanaChinthaka">
-  <img src="https://avatars.githubusercontent.com/u/214707803?v=4" width="120" style="border-radius: 50%; border: 5px solid silver;"/>
-</a>
-
-**Darshana Chinthaka**
-
-![Commits](https://img.shields.io/badge/Backend%20Commits-6+-blue?style=for-the-badge&logo=git)
-![Database](https://img.shields.io/badge/Database-Specialist-green?style=for-the-badge&logo=mysql)
-
-
----
-
-### 🥉 Bronze Medal - API Excellent
-<a href="https://github.com/minidu1">
-    <img src="https://github.com/minidu1.png" width="100" style="border-radius: 50%; border: 5px solid #CD7F32;"/>
-</a>
-
-**minidu1**
-
-![Postman](https://img.shields.io/badge/API%20Testing-Postman-orange?style=for-the-badge&logo=postman)
-![Commits](https://img.shields.io/badge/Backend%20Commits-3+-blue?style=for-the-badge&logo=git)
-
-</div>
-
----
 
 
 ### 📦 Project Milestones
