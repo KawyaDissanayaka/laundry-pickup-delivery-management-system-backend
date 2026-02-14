@@ -78,6 +78,8 @@ Content-Type: application/json
   "password": "password123"
 }
 ```
+![login Page](screenshots/login.jpeg)
+
 
 #### Register
 ```http
@@ -93,6 +95,8 @@ Content-Type: application/json
   "address": "123 Customer Street"
 }
 ```
+![register Page](screenshots/register.jpeg)
+
 
 ### Customer Endpoints (Requires CUSTOMER role)
 
