@@ -159,7 +159,7 @@ A complete Spring Boot backend for the Laundry Management System with JWT authen
 |-------------------|------------------|-------|--------|
 | 🔐 **Authentication API** | KawyaDissanayaka | 8+ | ✅ Complete |
 | 📦 **Order Management** | KawyaDissanayaka, DarshanaChinthaka | 10+ | ✅ Complete |
-| 👥 **User Management** | KawyaDissanayaka, DarshanaChinthaka | 6+ | ✅ Complete |
+| 👥 **User Management** | Minidu1, DarshanaChinthaka | 6+ | ✅ Complete |
 | 🗄️ **Database Configuration** | DarshanaChinthaka | 3+ | ✅ Complete |
 | 🔄 **Role Management** | DarshanaChinthaka | 2+ | ✅ Complete |
 | 📚 **Documentation** | KawyaDissanayaka | 10+ | ✅ Complete |
