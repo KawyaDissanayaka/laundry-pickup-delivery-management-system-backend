@@ -99,10 +99,20 @@ public class UserService {
     }
 
     public List<UserDTO> getUsersByRole(String role) {
-        return userRepository.findByRole(UserRole.valueOf(role))
+        UserRole userRole;
+        try {
+            // Convert input string to uppercase to match enum constants
+            userRole = UserRole.valueOf(role.toUpperCase());
+        } catch (IllegalArgumentException e) {
+            throw new IllegalArgumentException("Invalid role: " + role);
+        }
+
+        return userRepository.findByRole(userRole)
                 .stream()
                 .map(this::convertToUserDTO)
-                .toList();
+                .collect(Collectors.toList()); // use collect(Collectors.toList()) for Java <16
     }
+
+
 
 }

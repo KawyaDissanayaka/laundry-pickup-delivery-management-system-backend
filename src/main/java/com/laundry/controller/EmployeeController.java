@@ -6,6 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
+import com.laundry.dto.UserDTO;
+import com.laundry.service.UserService;
+
 
 import java.util.HashMap;
 import java.util.List;
@@ -79,4 +82,22 @@ public class EmployeeController {
         
         return ResponseEntity.ok(stats);
     }
+
+    @Autowired
+    private UserService userService;
+
+    // Get logged-in employee's info
+    @GetMapping("/me")
+    public ResponseEntity<UserDTO> getMyInfo() {
+        UserDTO user = userService.getCurrentUser();
+        return ResponseEntity.ok(user);
+    }
+
+    // Get all employees (optional, if employees can see coworkers)
+    @GetMapping("/all")
+    public ResponseEntity<List<UserDTO>> getAllEmployees() {
+        List<UserDTO> employees = userService.getUsersByRole("EMPLOYEE");
+        return ResponseEntity.ok(employees);
+    }
+
 }
