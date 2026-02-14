@@ -1,3 +1,4 @@
+
 # Laundry Management System Backend
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/KawyaDissanayaka/laundry-pickup-delivery-management-system-backend
@@ -78,7 +79,7 @@ Content-Type: application/json
   "password": "password123"
 }
 ```
-![login Page](screenshots/login.jpeg)
+![login Page](LaundrymartPostmanscreeshot/AuthController/login.jpeg)
 
 
 #### Register
@@ -105,6 +106,8 @@ Content-Type: application/json
 GET /api/customer/orders
 Authorization: Bearer {token}
 ```
+![customer Page](LaundrymartPostmanscreeshot/CustomerController/GETcustomerorders.png)
+
 
 #### Create Order
 ```http
@@ -126,6 +129,8 @@ Content-Type: application/json
   "address": "123 Customer Street"
 }
 ```
+![customer Page](LaundrymartPostmanscreeshot/CustomerController/POSTcustomerorders.png)
+
 
 #### Get Customer Stats
 ```http
@@ -415,3 +420,4 @@ The API returns consistent error responses:
 ## 📄 License
 
 This project is licensed under the MIT License.
+
