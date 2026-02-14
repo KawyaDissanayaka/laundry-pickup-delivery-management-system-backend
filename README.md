@@ -359,8 +359,7 @@ Content-Type: application/json
   "password": "password123"
 }
 ```
-![login Page]([Laundrymart_Postman_screeshot/Auth_Controller/login.jpeg](https://github.com/KawyaDissanayaka/laundry-pickup-delivery-management-system-backend/blob/Darshana/Laundrymart%20Postman%20screeshot/Auth%20Controller/login.jpeg))
-
+![login Page](https://github.com/KawyaDissanayaka/laundry-pickup-delivery-management-system-backend/blob/Darshana/Laundrymart%20Postman%20screeshot/Auth%20Controller/login.jpeg)
 
 #### Register
 ```http
@@ -376,7 +375,7 @@ Content-Type: application/json
   "address": "123 Customer Street"
 }
 ```
-![register Page](LaundrymartPostmanscreeshot/AuthController/register.jpeg)
+![register Page](https://github.com/KawyaDissanayaka/laundry-pickup-delivery-management-system-backend/blob/Darshana/Laundrymart%20Postman%20screeshot/Auth%20Controller/register.jpeg)
 
 
 ### Customer Endpoints (Requires CUSTOMER role)
