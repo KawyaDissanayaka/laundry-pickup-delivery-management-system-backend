@@ -78,6 +78,8 @@ Content-Type: application/json
   "password": "password123"
 }
 ```
+![login Page](LaundrymartPostmanscreeshot/AuthController/login.jpeg)
+
 
 #### Register
 ```http
@@ -93,6 +95,8 @@ Content-Type: application/json
   "address": "123 Customer Street"
 }
 ```
+![register Page](LaundrymartPostmanscreeshot/AuthController/register.jpeg)
+
 
 ### Customer Endpoints (Requires CUSTOMER role)
 
@@ -101,6 +105,8 @@ Content-Type: application/json
 GET /api/customer/orders
 Authorization: Bearer {token}
 ```
+![customer Page](LaundrymartPostmanscreeshot/CustomerController/GETcustomerorders.png)
+
 
 #### Create Order
 ```http
@@ -122,6 +128,8 @@ Content-Type: application/json
   "address": "123 Customer Street"
 }
 ```
+![customer Page](LaundrymartPostmanscreeshot/CustomerController/POSTcustomerorders.png)
+
 
 #### Get Customer Stats
 ```http
