@@ -79,7 +79,7 @@ Content-Type: application/json
   "password": "password123"
 }
 ```
-![login Page](LaundrymartPostmanscreeshot/AuthController/login.jpeg)
+![login Page](Laundrymart%20Postman%20screeshot/AuthController/login.jpeg)
 
 
 #### Register
