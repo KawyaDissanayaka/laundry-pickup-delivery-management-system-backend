@@ -1,8 +1,11 @@
 # Laundry Management System Backend
 
-![GitHub last commit](https://img.shields.io/github/last-commit/KawyaDissanayaka/laundry-pickup-delivery-management-system-backend)
-![GitHub repo size](https://img.shields.io/github/repo-size/KawyaDissanayaka/laundry-pickup-delivery-management-system-backend)
-![GitHub issues](https://img.shields.io/github/issues/KawyaDissanayaka/laundry-pickup-delivery-management-system-backend)
+![GitHub last commit](https://img.shields.io/github/last-commit/KawyaDissanayaka/laundry-pickup-delivery-management-system-backend
+)
+![GitHub repo size](https://img.shields.io/github/repo-size/KawyaDissanayaka/laundry-pickup-delivery-management-system-backend
+)
+![GitHub issues](https://img.shields.io/github/issues/KawyaDissanayaka/laundry-pickup-delivery-management-system-backend
+)
 
 
 A complete Spring Boot backend for the Laundry Management System with JWT authentication, role-based access control, and comprehensive order management.
@@ -20,15 +23,7 @@ A complete Spring Boot backend for the Laundry Management System with JWT authen
 2. Create a database named `laundry_db` (optional - will be created automatically)
 3. Update database credentials in `src/main/resources/application.properties` if needed
 
-### Clone Repository
-
-```bash
-git clone https://github.com/KawyaDissanayaka/laundry-pickup-delivery-management-system-backend
-.git
-```
-
 ### Running the Application
-
 
 
 1. **Build the Project**
@@ -44,40 +39,28 @@ git clone https://github.com/KawyaDissanayaka/laundry-pickup-delivery-management
 3. **Access the API**
    - Base URL: `http://localhost:8080`
    - API endpoints: `http://localhost:8080/api/`
-  
-## 📸 Backend Screenshots
-
-### Application Running
-![Backend Running](screenshots/backend-running.png)
-
-### API Testing (Postman)
-![API Test](screenshots/api-get-orders.png)
-
-
-### Database Tables
-![Database](screenshots/database-tables.png)
 
 ## 🔐 Test Credentials
 
 The application automatically seeds default users on first startup:
 
 ### Admin User
-- **Username**: `admin`
+- **email**: `@admin.com`
 - **Password**: `password123`
 - **Role**: Admin
 
 ### Customer User
-- **Username**: `customer1`
+- **email**: `@gmail.com`
 - **Password**: `password123`
 - **Role**: Customer
 
 ### Employee User
-- **Username**: `employee1`
+- **email**: `@staff.com`
 - **Password**: `password123`
 - **Role**: Employee
 
 ### Rider User
-- **Username**: `rider1`
+- **email**: `@rider.com`
 - **Password**: `password123`
 - **Role**: Rider
 
@@ -91,7 +74,7 @@ POST /api/login
 Content-Type: application/json
 
 {
-  "username": "admin",
+  "email": "@admin.com",
   "password": "password123"
 }
 ```
@@ -104,7 +87,7 @@ Content-Type: application/json
 {
   "username": "newcustomer",
   "password": "password123",
-  "email": "customer@example.com",
+  "email": "customer@gmail.com",
   "fullName": "New Customer",
   "phone": "0771234567",
   "address": "123 Customer Street"
