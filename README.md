@@ -95,7 +95,7 @@ Content-Type: application/json
   "address": "123 Customer Street"
 }
 ```
-![register Page](screenshots/register.jpeg)
+![register Page](LaundrymartPostmanscreeshot/AuthController/register.jpeg)
 
 
 ### Customer Endpoints (Requires CUSTOMER role)
