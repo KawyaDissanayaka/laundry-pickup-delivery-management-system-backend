@@ -131,4 +131,11 @@ public class AdminController {
         UserDTO rider = userService.createRider(userDTO);
         return ResponseEntity.ok(rider);
     }
+    @GetMapping("/employees")
+    public ResponseEntity<List<UserDTO>> getAllEmployees() {
+        List<UserDTO> employees = userService.getUsersByRole("EMPLOYEE");
+        return ResponseEntity.ok(employees);
+    }
+
+
 }

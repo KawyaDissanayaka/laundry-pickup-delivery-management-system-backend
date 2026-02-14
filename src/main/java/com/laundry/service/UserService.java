@@ -97,4 +97,12 @@ public class UserService {
         userDTO.setRole(user.getRole().name().toLowerCase());
         return userDTO;
     }
+
+    public List<UserDTO> getUsersByRole(String role) {
+        return userRepository.findByRole(UserRole.valueOf(role))
+                .stream()
+                .map(this::convertToUserDTO)
+                .toList();
+    }
+
 }
