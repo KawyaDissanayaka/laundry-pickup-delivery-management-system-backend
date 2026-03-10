@@ -14,7 +14,6 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/rider")
-@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:3000", "http://localhost:5174"})
 @PreAuthorize("hasRole('RIDER')")
 public class RiderController {
     
