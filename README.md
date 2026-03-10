@@ -241,6 +241,10 @@ A complete Spring Boot backend for the Laundry Management System with JWT authen
 [![Issues](https://img.shields.io/badge/🐛-Issues-red?style=for-the-badge&logo=github)](https://github.com/KawyaDissanayaka/laundry-pickup-delivery-management-system-backend/issues)
 [![Frontend Repo](https://img.shields.io/badge/🎨-Frontend%20Repo-blue?style=for-the-badge&logo=react)](https://github.com/KawyaDissanayaka/laundry-pickup-delivery-management-system-frontend)
 
+**🆕 API Features:**
+- 📸 [Get Commit History Image](http://localhost:8080/api/commits/history/image/view) - Visual representation of all commits
+- 📊 [Get Commit History JSON](http://localhost:8080/api/commits/history) - Commit data in JSON format
+
 </div>
 
 ---
@@ -546,6 +550,59 @@ Content-Type: application/json
 }
 ```
 
+### Commit History Endpoints (Public)
+
+#### Get Commit History as JSON
+```http
+GET /api/commits/history
+```
+
+**Response:**
+```json
+[
+  {
+    "hash": "d96d1fea",
+    "author": "Kawya Dissanayaka",
+    "email": "kawyadissanayaka95@gmail.com",
+    "date": "2026-02-14 11:56:53 +0530",
+    "message": "Update README.md"
+  },
+  {
+    "hash": "bcc0774b",
+    "author": "Kawya Dissanayaka",
+    "email": "kawyadissanayaka95@gmail.com",
+    "date": "2026-02-14 10:17:25 +0530",
+    "message": "Add screenshots to README for authentication and orders"
+  }
+]
+```
+
+#### Generate Commit History Image (Download)
+```http
+GET /api/commits/history/image
+```
+
+**Description:** Downloads a PNG image showing the complete commit history with features.
+
+**Response:** Binary PNG image file (`commit-history.png`)
+
+#### View Commit History Image (Inline)
+```http
+GET /api/commits/history/image/view
+```
+
+**Description:** Displays the commit history image directly in the browser.
+
+**Response:** PNG image displayed inline
+
+**Features:**
+- 📊 Visual representation of all Git commits
+- 👤 Shows author information for each commit
+- 📅 Displays commit dates
+- 📝 Includes commit messages (features description)
+- 🎨 Color-coded layout with alternating rows
+- 💾 Downloadable as PNG image
+
 ## 🏗️ Project Structure
 
 ```
@@ -560,14 +617,19 @@ src/main/java/com/laundry/
 │   ├── CustomerController.java # Customer endpoints
 │   ├── EmployeeController.java  # Employee endpoints
 │   ├── RiderController.java    # Rider endpoints
-│   └── AdminController.java    # Admin endpoints
+│   ├── AdminController.java    # Admin endpoints
+│   └── CommitHistoryController.java # Commit history & image generation
 ├── dto/                        # Data Transfer Objects
+│   ├── CommitHistoryDTO.java   # Commit history data
+│   └── ...                     # Other DTOs
 ├── entity/                     # JPA entities
 ├── enums/                      # Enum classes
 ├── exception/                  # Exception handling
 ├── repository/                 # JPA repositories
 ├── security/                   # Security components
 └── service/                    # Business logic
+    ├── CommitHistoryService.java # Git history & image generation
+    └── ...                     # Other services
 ```
 
 ## 🔧 Configuration
